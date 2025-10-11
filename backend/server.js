@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // ✅ Clean MongoDB connection string (no deprecated options)
-mongoose.connect('mongodb+srv://tamil:CcCaLscdtA3jCP5F@cluster0.8yj1zzc.mongodb.net/eWasteDB?retryWrites=true&w=majority')
+mongoose.connect('')
   .then(() => {
     console.log("✅ Connected to MongoDB");
   })
@@ -31,4 +31,5 @@ app.get('/', (req, res) => {
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`✅ Server running on port ${port}`);
+
 });
