@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>E‑Waste Facility Locator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+</head>
+<body>
+
+  <h1>E‑Waste Facility Locator</h1>
+
+  <div id="controls">
+    <input type="text" id="searchBox" placeholder="Search by name or type..." />
+    <button onclick="findNearby()">📍 Nearby (25 km)</button>
+    <button onclick="showNearestFacility()">🔍 Nearest Facility</button>
+  </div>
+
+  <p id="loading">Loading facilities...</p>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
