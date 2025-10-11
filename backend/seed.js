@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Facility = require('./models/Facility');
 
 // ✅ Replace this with your actual MongoDB connection string
-mongoose.connect('mongodb+srv://tamil:CcCaLscdtA3jCP5F@cluster0.8yj1zzc.mongodb.net/eWasteDB?retryWrites=true&w=majority')
+mongoose.connect('')
   .then(async () => {
     console.log("✅ Connected to MongoDB");
 
@@ -139,3 +139,4 @@ mongoose.connect('mongodb+srv://tamil:CcCaLscdtA3jCP5F@cluster0.8yj1zzc.mongodb.
     console.error("❌ Error:", err.message);
     process.exit(1);
   });
+
