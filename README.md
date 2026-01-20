@@ -30,30 +30,63 @@ The **E-Waste Locator** is a web application designed to help users find the nea
 
 ## 📂 Project Structure
 
-e-waste-locator/
-|│
-|├── backend/
-|├── server.js # Main server entry point
-|├── package.json # Dependencies and scripts
-|├── seed.js # Database seeding script
-|├── models/ # Mongoose models (e.g., Facility.js)
-|└── node_modules/ # Installed dependencies
-|
-|___frontend/
-    |_index.html
-    |_script.js
-    |_style.css
+e-waste_locator/
+│── backend/
+│   ├── server.js
+│   ├── routes/
+│   └── models/
+│── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│── README.md
 
-Install dependencies:
-    
+
+## Installation & Setup
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/tamil123tami/e-waste_locator.git
+Navigate to backend folder
+
+cd backend
 npm install
 
-Seeding Data:
-To populate the database with initial facilities, run:
 
-node seed.js
+Start the server
 
-TO RUN THIS PROJECT:
-cd backend
-node seed.js #for data
 node server.js
+
+
+Open frontend/index.html in your browser
+
+
+🔥 **This alone is a valid beginner contribution**
+
+---
+
+## ✅ CHANGE 2: Add a CONTRIBUTING.md File
+
+### 🔴 Problem
+No contribution guidelines exist.
+
+### ✅ What to Do
+Create a new file: **`CONTRIBUTING.md`**
+
+### ✍️ Example Content
+```md
+# Contributing Guidelines
+
+Thank you for considering contributing!
+
+## How to Contribute
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Commit with a clear message
+5. Open a Pull Request
+
+## Rules
+- Keep code clean and readable
+- Test your changes
+- Be respectful in discussions
