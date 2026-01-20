@@ -1,8 +1,3 @@
-Here is the **README content as a plain text file (README.txt)** — no Markdown, just simple text.
-You can copy-paste this directly into a `.txt` file.
-
----
-
 E-WASTE LOCATOR
 
 E-Waste Locator is a web application that helps users find nearby e-waste recycling facilities and manage electronic waste responsibly.
@@ -99,13 +94,5 @@ Steps:
 
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
 
----
 
-If you want, I can also:
 
-* shorten this further
-* convert it back to Markdown
-* write a CONTRIBUTING.txt file
-* help you submit the PR step by step
-
-Just tell me 👍
