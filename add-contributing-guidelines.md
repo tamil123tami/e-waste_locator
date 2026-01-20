@@ -1,12 +1,3 @@
-Here is a **simple, beginner-friendly `CONTRIBUTING.txt` file** you can copy-paste directly into your project.
-
----
-
-CONTRIBUTING GUIDELINES
-E-WASTE LOCATOR PROJECT
-
----
-
 ## WELCOME
 
 Thank you for taking interest in contributing to the E-Waste Locator project.
@@ -83,14 +74,3 @@ By contributing to this project, you agree that your contributions will be licen
 ## THANK YOU
 
 Thank you for helping improve the E-Waste Locator project!
-
----
-
-If you want, I can:
-
-* simplify this further
-* write a CONTRIBUTING.md version
-* help you commit and push this file
-* guide you in opening the Pull Request
-
-Just tell me 👍
